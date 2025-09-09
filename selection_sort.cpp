@@ -42,7 +42,7 @@ void sort(T array[], int length) {
 
 // Binäre Suche in einem aufsteigend sortierten Array
 template <typename T, typename U>
-bool find_faster(T const array[], int length, U x) {
+bool search(T const array[], int length, U x) {
   int left = 0, right = length - 1;
 
   while (right >= left) {
@@ -60,7 +60,7 @@ int main() {
   float noten[] = {2.7, 1.0, 1.0, 4.0, 5.0};
   sort(noten, 5);
   print_all(noten, 5);
-  if (find_faster(noten, 5, 4.0f))
+  if (search(noten, 5, 4.0f))
     printf("die Note 4.0 wurde gefunden\n");
   else
     printf("die Note 4.0 wurde NICHT gefunden\n");
