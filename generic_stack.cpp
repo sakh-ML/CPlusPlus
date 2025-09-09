@@ -7,7 +7,7 @@ Beispiel: Webseiten-Stack mit Ausgaben in umgekehrter Reihenfolge.
 #include <cstdio>
 #include <string>
 
-#include "ResizableArray.hpp"
+#include "resizable_array.hpp"
 
 template <typename T>
 class MyStack {
