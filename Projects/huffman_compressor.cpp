@@ -22,7 +22,7 @@
 #include <bitset>
 #include <cstdio>
 using std::bitset;
-#include "heap.hpp"
+#include "priority_queue.hpp"
 
 
 struct Code {

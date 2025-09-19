@@ -3,7 +3,7 @@
 
 class Baum{
 
-	std::vector<String> values;
+	std::vector<std::string> values;
 };
 
 

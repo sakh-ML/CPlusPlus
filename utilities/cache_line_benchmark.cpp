@@ -1,7 +1,7 @@
 #include <iostream>
 
 #include "cacheline.h"
-#include "helper.h"
+#include "cache_benchmark.h" 
 
 #define ELEMENTS 50000000
 

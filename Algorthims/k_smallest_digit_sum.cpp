@@ -15,7 +15,7 @@ gibt die k-kleinsten Elemente gemäß Quersumme aus.
 
 
 #include <cstdio>
-#include "PQ.hpp"
+#include "priority_queue.hpp"
 
 int digit_sum(int number) {
   int sum = 0;
